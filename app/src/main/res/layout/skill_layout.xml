@@ -7,25 +7,18 @@
     android:layout_margin="10dp">
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/skill_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="name"/>
+        android:text="Skill Name"/>
 
     <TextView
-        android:id="@+id/phone"
-        android:layout_below="@+id/name"
+        android:id="@+id/skill_experience"
+        android:layout_below="@+id/skill_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="phone"/>
-    <TextView
-        android:id="@+id/email"
-        android:layout_below="@+id/phone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="email"/>
+        android:text="Skill Experience"/>
 
 
     <ImageView
@@ -38,7 +31,7 @@
 
 
     <View
-        android:layout_below="@+id/email"
+        android:layout_below="@+id/skill_experience"
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
         android:layout_marginTop="10dp"

@@ -16,6 +16,14 @@
         android:text="CRUD Operation"
         android:textSize="20sp"/>
 
+    <Button
+        android:id="@+id/btn_viewModel"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:text="Room with LiveData ViewModel"
+        android:textSize="18sp"/>
+
 
 
 </LinearLayout>

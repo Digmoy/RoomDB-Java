@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RoomDB_Java">
-        <activity android:name=".UserActivity"></activity>
+        <activity android:name=".RoomLivedataViewModel.UpdateSkillActivity"></activity>
+        <activity android:name=".RoomLivedataViewModel.AddSkillActivity" />
+        <activity android:name=".RoomLivedataViewModel.ListActivity" />
+        <activity android:name=".UpdateActivity" />
+        <activity android:name=".UserActivity" />
         <activity android:name=".CrudActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
